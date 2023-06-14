@@ -1,0 +1,104 @@
+.dropdown-menu a:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+   
+  }
+  .grid-item-1 {
+   text-align: center;
+   
+  }
+  .grid-item-2 {
+   text-align: center;
+  }
+  .grid-item-3 {
+   text-align: center;
+  }
+
+ a:link{
+    text-decoration: none;
+    color: black;
+ }
+ a:visited{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    text-decoration: none;
+    color: black;
+ }
+ a:active{
+    text-decoration: none;
+    color: black;
+ }
+  .card-cont{
+    text-align: left;
+    padding: 7px;
+
+  }
+  .card-cont-1{
+    text-align: left;
+    padding: 17px;
+    
+  }
+ 
+  .card{
+    cursor: pointer;
+    
+  }
+
+  .post-img{
+    width: 17rem;
+    height: 14rem;
+  }
+
+  .profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .back-1 {
+    background:rgb(181, 176, 176) url("images/back-2.jpg");
+    background-size: cover;
+    height: 10rem;
+    background-blend-mode:soft-light;
+    margin: 10px;
+    border-radius: 2px;
+
+  }
+  .col-h1 {
+    color: rgb(3, 2, 2);
+    position: relative;
+    margin-top: 5%;
+    font-size: 35px;
+  }
+  .col-p {
+    color: rgb(2, 2, 2);
+    text-align: center;
+  }
+  
+
+  @media only screen and (max-width : 1005px)
+  {
+    .grid-container {
+      grid-template-columns: 30% 70%;
+     
+    }
+    
+  }
+  @media only screen and (max-width : 775px)
+  {
+    .grid-container {
+      grid-template-columns: 100%;
+     
+    }
+
+    .back-1{
+      height: 15rem;
+    }
+    
+  }
